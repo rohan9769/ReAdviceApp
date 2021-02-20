@@ -32,8 +32,10 @@ class App extends Component{
             <button className="button" onClick={this.fetchAdvice}>
               <span>Give Me Advice !</span>
             </button>
+            <footer style={{color:'black', marginTop:'15px'}}>Made with ❤ by Rohan</footer>
           </div>
         </div>
+        
       </>
     )
   }
